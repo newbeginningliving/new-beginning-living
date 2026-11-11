@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Photo Gallery — New Beginning Living Inc | RCFE San Diego</title>
+<meta name="description" content="See inside New Beginning Living Inc, a licensed Residential Care Facility for the Elderly (RCFE) and board and care home in San Diego, CA — photos of our bedrooms, common areas, dining room, kitchen, and backyard.">
+<link rel="canonical" href="https://newbeginningliving.com/gallery.html">
+<meta name="theme-color" content="#3D5942">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="New Beginning Living Inc">
+<meta property="og:title" content="Photo Gallery — New Beginning Living Inc | RCFE San Diego">
+<meta property="og:description" content="See inside New Beginning Living Inc, a licensed Residential Care Facility for the Elderly (RCFE) and board and care home in San Diego, CA — photos of our bedrooms, common areas, dining room, kitchen, and backyard.">
+<meta property="og:url" content="https://newbeginningliving.com/gallery.html">
+<meta property="og:image" content="https://newbeginningliving.com/images/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Lato:wght@300;400;700;900&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="New Beginning Living Inc — Home">
+      <img id="logoImg" src="images/logoFull.png" alt="New Beginning Living Inc logo">
+    </a>
+    <nav class="nav-primary" id="navPrimary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services &amp; Admission</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:16194814862">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.34 1.79.66 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.43a2 2 0 0 1 2.11-.45c.86.32 1.75.54 2.65.66A2 2 0 0 1 22 16.92z"/></svg>
+          (619) 481-4862
+        </a>
+        <a class="btn btn-primary" href="contact.html">Schedule a Tour</a>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-banner">
+  <div class="hero-media"><img id="bannerImg" src="images/patio.jpg" alt="Backyard patio at New Beginning Living Inc"></div>
+  <div class="wrap page-banner-content reveal">
+    <p class="crumb">Gallery</p>
+    <h1>A Look Inside Our Home</h1>
+    <p>A look inside our residential care home in San Diego, CA &mdash; click any photo for a closer look.</p>
+  </div>
+</section>
+
+<main>
+  <section class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Watch Our Video Tour</p>
+        <h2>72 Seconds Inside New Beginning Living</h2>
+      </div>
+      <div class="video-frame reveal">
+        <video id="tourVideo" controls preload="none" poster="video/tour-poster.jpg"  playsinline>
+          <source src="video/tour-video.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="video/tour-video.mp4">Download the video tour</a> instead.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <p class="eyebrow" style="justify-content:center">Photo Gallery</p>
+        <h2>Explore Every Room</h2>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="gallery-item reveal" data-key="exterior" data-full="images/exterior.jpg" data-caption="Welcoming curb appeal">
+          <img src="images/exterior-thumb.jpg" loading="lazy" alt="Exterior of New Beginning Living Inc, a residential care home in San Diego, CA">
+          <figcaption>Welcoming Curb Appeal</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="living_room" data-full="images/living-room.jpg" data-caption="Comfortable common living room">
+          <img src="images/living-room-thumb.jpg" loading="lazy" alt="Living room in our board and care home">
+          <figcaption>Comfortable Living Room</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="bedroom_1" data-full="images/bedroom-1.jpg" data-caption="Restful shared bedroom">
+          <img src="images/bedroom-1-thumb.jpg" loading="lazy" alt="Resident bedroom">
+          <figcaption>Restful Rooms, Peaceful Days</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="bedroom_2" data-full="images/bedroom-2.jpg" data-caption="Comfortable resident bedroom">
+          <img src="images/bedroom-2-thumb.jpg" loading="lazy" alt="Resident bedroom two">
+          <figcaption>Comfortable Bedroom</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="dining" data-full="images/dining.jpg" data-caption="Warm family-style dining area">
+          <img src="images/dining-thumb.jpg" loading="lazy" alt="Dining area">
+          <figcaption>Family-Style Dining</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="kitchen" data-full="images/kitchen.jpg" data-caption="Kitchen where nutritious meals are prepared">
+          <img src="images/kitchen-thumb.jpg" loading="lazy" alt="Kitchen">
+          <figcaption>Home-Cooked Meals</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="bathroom" data-full="images/bathroom.jpg" data-caption="Safe, accessible bathroom with walk-in shower">
+          <img src="images/bathroom-thumb.jpg" loading="lazy" alt="Accessible bathroom">
+          <figcaption>Safe, Accessible Bathroom</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="laundry" data-full="images/laundry.jpg" data-caption="On-site laundry room">
+          <img src="images/laundry-thumb.jpg" loading="lazy" alt="Laundry room">
+          <figcaption>Full Laundry Service</figcaption>
+        </button>
+        <button class="gallery-item reveal" data-key="patio" data-full="images/patio.jpg" data-caption="Private backyard patio with pergola and fireplace">
+          <img src="images/patio-thumb.jpg" loading="lazy" alt="Backyard patio">
+          <figcaption>Fresh Air, Brighter Tomorrows</figcaption>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="cta-banner reveal" style="background:var(--nb-brown);">
+        <div class="cta-text">
+          <h2>Photos Don't Do It Justice</h2>
+          <p>The best way to experience New Beginning Living Inc is in person. We'd love to show you around.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="contact.html">Schedule a Tour</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-top">
+    <div>
+      <div class="footer-brand">
+        <img id="footerLogo" src="images/iconMark.png" alt="New Beginning Living Inc">
+        <span>New Beginning Living Inc</span>
+      </div>
+      <p>A licensed Residential Care Facility for the Elderly (RCFE) and board and care home in San Diego, CA, offering compassionate, personalized assisted living in a warm, family-style setting.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services &amp; Admission</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="footer-links">
+        <li>2275 Ingrid Avenue<br>San Diego, CA 92154</li>
+        <li><a href="tel:16194814862">Patricia: (619) 481-4862</a></li>
+        <li><a href="tel:16198723118">Octavio: (619) 872-3118</a></li>
+        <li><a href="mailto:newbeginningliving@gmail.com">newbeginningliving@gmail.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Licensing</h4>
+      <p>RCFE License #374604920</p>
+      <p>Licensed by the California Department of Social Services, Community Care Licensing Division.</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; 2026 New Beginning Living Inc. All rights reserved.</span>
+    <span>Serving Today for a Brighter Tomorrow</span>
+  </div>
+</footer>
+</body>
+</html>
